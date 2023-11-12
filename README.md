@@ -82,4 +82,3 @@ Use this command to find the path to proto files included in the image:
 ```
 docker run --rm -it --entrypoint=/bin/sh jaegertracing/protobuf:latest -c "find /usr/include -name *.proto"
 ```
-test

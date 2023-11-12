@@ -18,7 +18,7 @@ jobs:
         - name: Checkout jaeger
           uses: actions/checkout@v4
           with:
-            repository: jaegertracting/jaeger
+            repository: jaegertracing/jaeger
             path: jaeger
 
         - name: Build Proto in Jaeger
